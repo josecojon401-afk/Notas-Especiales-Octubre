@@ -7,8 +7,17 @@
 <title>Un pequeño rincón para Madelyn</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body class="luxury-ready">
+<body class="luxury-locked">
 
+<div id="luxuryIntro" class="luxury-intro">
+  <div class="luxury-stars"></div>
+  <div class="luxury-intro-content">
+    <p class="luxury-kicker">UNA EXPERIENCIA CREADA ESPECIALMENTE PARA TI</p>
+    <h1><span>Madelyn</span></h1>
+    <p class="luxury-phrase">Hay amistades que convierten los días sencillos en recuerdos inolvidables.</p>
+    <button id="enterLuxury" class="luxury-enter">Entrar a tu regalo ✨</button>
+  </div>
+</div>
 <div id="luxuryPetals" class="luxury-petals" aria-hidden="true"></div>
 <div class="luxury-music">
   <button id="luxuryMusicBtn" aria-label="Activar o desactivar música">🎵 Música</button><span id="audioStatus" class="audio-status" aria-live="polite"></span>
@@ -17,10 +26,7 @@
 <div id="particles" aria-hidden="true"></div>
 <div class="petals"></div>
 <main class="app">
-  <section id="cover" class="screen active sunflower-cover">
-    <div class="sunflower-petals" aria-hidden="true">🌻 ✦ 🌻 ✧ 🌻</div>
-    <div class="sunflower-corner sunflower-left" aria-hidden="true">🌻</div>
-    <div class="sunflower-corner sunflower-right" aria-hidden="true">🌻</div>
+  <section id="cover" class="screen active">
     <div class="gift-scene" id="giftScene">
       <div class="floating-sparkles">✦　✧　♡　✧　✦</div>
       <div class="gift-box" id="giftBox" role="button" tabindex="0" aria-label="Abrir regalo">
